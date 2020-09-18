@@ -1,4 +1,4 @@
-# movetocorner
+# Move To Corner
 Simple script to move i3 floating windows to screen corners.
 
 # Functioning 
