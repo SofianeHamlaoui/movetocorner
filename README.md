@@ -5,9 +5,14 @@ A script to move i3 floating windows to screen corners.
 ![](https://raw.githubusercontent.com/SofianeHamlaoui/junk/master/Movetocorner.gif)
 
 # How it works : 
-The script uses the keyboard's numpad numbers to select the corner location you want to send the window to.
+For each corner, I used some small mathematical calculations, so it keeps only 1/4 of the window size visible on each corner.
 
-For each corner, I used some small mathematical calculations so you it gets the resolution of your screnn, and keep only 1/4 of the window size on each corner.
+- 1 - Uses xrandr to get the full screen resolution
+- 2 - setting 2 variables half x and half y 
+- 3 - using xdotool to get the selected window to move
+- 4 - using xdotool again to move the window to a specific position, where this postiion is a result of 
+mathematical calculations to have the exact postion of the window to keep only 1/4 of the window size visible.
+
 - The presets
 
     ![1](https://i.imgur.com/bvDfrmQ.png)
