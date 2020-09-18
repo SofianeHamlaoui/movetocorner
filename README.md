@@ -1,5 +1,5 @@
 # Move To Corner
-Simple script to move i3 floating windows to screen corners.
+A script to move i3 floating windows to screen corners.
 
 # Functioning 
 ![](https://raw.githubusercontent.com/SofianeHamlaoui/junk/master/Movetocorner.gif)
